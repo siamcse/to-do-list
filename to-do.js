@@ -35,4 +35,7 @@ document.getElementById('add-btn').addEventListener('click',function(){
             event.target.parentNode.parentNode.style.textDecoration = "line-through" ;
         })
     }
+    document.getElementById('clear-btn').addEventListener('click',function(event){
+        tableContent.style.display = 'none';
+    })
 })
